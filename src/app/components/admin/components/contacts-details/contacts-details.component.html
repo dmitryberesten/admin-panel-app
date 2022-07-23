@@ -3,6 +3,8 @@
     <div class="card-body p-2 text-center">
       <div>
         <h5>User Details:</h5>
+        
+        <!-- асинхронщина -->
         <section *ngIf="user | async as user">
           <h3>{{user.name}}</h3>
           <p>{{user.email}}</p>

@@ -28,7 +28,7 @@ export class AuthService {
   }
 
   login(userInfo: {email: string, password: string}): Observable<string | boolean> {
-    
+
     // Проверка авторизации
     if (userInfo.email === 'admin@gmail.com' && userInfo.password === 'admin123'){
       this.setToken('alksflkgsklgjslkjffksdgjnsadgskmg')
@@ -37,6 +37,7 @@ export class AuthService {
     return throwError(() => new Error('Failed Login'))
   }
 
+  // переход по кнопке logout на страницу login
   logout(){
     this.router.navigate(['login'])
   }

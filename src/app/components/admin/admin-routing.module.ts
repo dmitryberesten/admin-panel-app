@@ -19,6 +19,8 @@ const routes: Routes = [
           user: UserResolver
         }
       },
+
+      // перенаправление на contacts
       {path: 'contacts/user', redirectTo: 'contacts', pathMatch: 'full'},
       {path: 'home', component: HomeComponent},
 

@@ -16,8 +16,12 @@ export class UserResolver implements Resolve<User> {
   }
   resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<User> {
     return this.adminService.getPerson(route.params?.['id']).pipe(
+
+      // продолжительность для анимации / иммитиция загрузки сервера
       delay(2000),
       catchError( () => {
+
+        // если пользователь введет что попало - то его перенаправит на contacts
         this.router.navigate(['admin/contacts'])
         return EMPTY
       })

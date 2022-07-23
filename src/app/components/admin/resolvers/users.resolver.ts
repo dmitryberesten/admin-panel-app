@@ -17,6 +17,8 @@ export class UsersResolver implements Resolve<User[]> {
   }
   resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<User[]> {
     return this.adminService.getPersonalList().pipe(
+
+      // продолжительность для анимации / иммитиция загрузки сервера
       delay(2000)
     )
   }

@@ -43,6 +43,8 @@ export class LoginComponent implements OnInit {
           Validators.pattern('^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d]{8,}$')
         ])
     });
+
+    // если успешная авторизация - перенаправь на страницу admin
     if (this.authService.isLoggedIn()) {
       this.router.navigate(['admin'])
     }
