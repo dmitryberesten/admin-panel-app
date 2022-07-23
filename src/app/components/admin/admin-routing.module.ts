@@ -21,6 +21,8 @@ const routes: Routes = [
       },
       {path: 'contacts/user', redirectTo: 'contacts', pathMatch: 'full'},
       {path: 'home', component: HomeComponent},
+
+      // перенаправление на home после регистрации
       {path: '', redirectTo: 'home', pathMatch: 'full'},
     ],
   }
