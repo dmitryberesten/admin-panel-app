@@ -11,7 +11,7 @@ export class AdminService {
 
   // общий список
   getPersonalList(){
-    return this.http.get<User[]>('https://jsonplaceholder.typicode.com/users?_start=0&_limit=10');
+    return this.http.get<User[]>('https://jsonplaceholder.typicode.com/users?_start=0&_limit=9');
   }
 
   // список конкретной персоны
