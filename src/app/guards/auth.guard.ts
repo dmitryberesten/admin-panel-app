@@ -37,7 +37,7 @@ export class AuthGuard implements CanActivate, CanDeactivate<unknown> {
     nextState?: RouterStateSnapshot): Observable<boolean | UrlTree> | Promise<boolean | UrlTree> | boolean | UrlTree {
     
       // вопрос для пользователя перед уходом с админ панели
-      if (confirm('Are you sure?')) {
+      if (confirm('Вже виходите?')) {
       localStorage.removeItem('token'); // удаление введенных данных
       return true;
     }

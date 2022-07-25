@@ -6,8 +6,8 @@
 
           <div class="mb-md-5 mt-md-4 pb-5">
 
-            <h2 class="fw-bold mb-2 text-uppercase">Login</h2>
-            <p class="text-white-50 mb-5">Please enter your login and password!</p>
+            <h2 class="fw-bold mb-2 text-uppercase">Авторизація</h2>
+            <p class="text-white-50 mb-5">Будь ласка, введіть свій логін і пароль :)</p>
 
             <!-- Привязал форму к ТайпСкрипту. В ngSubmit - уже есть preventDefault -->
             <form [formGroup]="loginForm" (ngSubmit)="submitLogin()">
@@ -15,30 +15,30 @@
 
                 <!-- Привязал инпут к ТайпСкрипту -->
                 <input formControlName="email" type="email" id="typeEmailX" class="form-control form-control-lg"/>
-                <label class="form-label" for="typeEmailX">Email</label>
+                <label class="form-label" for="typeEmailX">Електронна пошта</label>
 
                 <!-- Если эта форма заполнена некоректно и когда инпут не в фокусе - то показывать эту надпись.
                 Тернарный оператор "?" нужен здесь для того чтобы проверить есть ли этот инпут  -->
-                <p *ngIf="this.loginForm.get('email')?.invalid && this.loginForm.get('email')?.touched"><small class="text-danger">Email is required</small></p>
+                <p *ngIf="this.loginForm.get('email')?.invalid && this.loginForm.get('email')?.touched"><small class="text-danger">Необхідно вказати адресу електронної пошти</small></p>
               </div>
 
               <div class="form-outline form-white mb-4">
 
                 <!-- Привязал инпут к ТайпСкрипту -->
                 <input formControlName="password" type="password" id="typePasswordX" class="form-control form-control-lg"/>
-                <label class="form-label" for="typePasswordX">Password</label>
+                <label class="form-label" for="typePasswordX">Пароль</label>
 
                 <!-- Если эта форма заполнена некоректно и когда инпут не в фокусе - то показывать эту надпись.
                 Тернарный оператор "?" нужен здесь для того чтобы проверить есть ли этот инпут  -->
-                <p *ngIf="this.loginForm.get('password')?.invalid && this.loginForm.get('password')?.touched"><small class="text-danger">Password is required (min. length = 8)</small></p>
+                <p *ngIf="this.loginForm.get('password')?.invalid && this.loginForm.get('password')?.touched"><small class="text-danger">Потрібен пароль (мін. довжина = 8)</small></p>
               </div>
 
               <!-- Отключил кнопку если логин и пароль введены не верно -->
-              <button [disabled]="loginForm.invalid" class="btn btn-outline-light btn-lg px-5" type="submit">Login</button>
+              <button [disabled]="loginForm.invalid" class="btn btn-outline-light btn-lg px-5" type="submit">Ввійти</button>
             </form>
           </div>
           <div>
-            <p class="mb-0">Don't have an account? <a routerLink="../registration" class="text-white-50 fw-bold">Sign Up</a></p>
+            <p class="mb-0">Немаєте акаунту? <a routerLink="../registration" class="text-white-50 fw-bold">Зареєструватися</a></p>
           </div>
 
         </div>

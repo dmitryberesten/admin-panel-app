@@ -2,15 +2,16 @@
   <div class="card bg-dark text-white mt-5" style="border-radius: 1rem">
     <div class="card-body p-2 text-center">
       <div>
-        <h5>User Details:</h5>
-        
+        <h5>Інформація про користувача:</h5>
         <!-- асинхронщина -->
         <section *ngIf="user | async as user">
           <h3>{{user.name}}</h3>
-          <p>{{user.email}}</p>
+          <p>НікНейм: {{user.username}}</p>
+          <p>Електронна пошта: {{user.email}}</p>
+          <p>Особистий сайт: {{user.website}}</p>
         </section>
       </div>
-      <button class="btn btn-success" [routerLink]="['../']">Go Back</button>
+      <button class="btn btn-success" [routerLink]="['../']">Назад</button>
     </div>
   </div>
 </div>
