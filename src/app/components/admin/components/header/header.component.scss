@@ -1,3 +1,23 @@
 .admin-text {
     font-size: 25px;
 }
+
+.block-mobile {
+    @media screen and (max-width: 520px) {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.navbar {
+    @media screen and (max-width: 520px) {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.list-item {
+    @media screen and (max-width: 520px) {
+        margin-bottom: 20px;
+    }
+}

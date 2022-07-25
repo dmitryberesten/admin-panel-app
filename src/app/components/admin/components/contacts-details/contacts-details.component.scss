@@ -5,3 +5,9 @@ h5 {
 button {
     margin-top: 30px;
 }
+
+.mobile-card {
+    @media screen and (max-width: 520px) {
+        width: 80%;
+    }
+}
