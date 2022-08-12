@@ -8,13 +8,13 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ТЕХНІЧНІ ОСОБЛИВОСТІ:
 
- ⁃ ANGULAR 14
- ⁃ SCSS
- ⁃ BOOTSTRAP 
- ⁃ Route Guards
- ⁃ Validation | Token
- ⁃ Adaptive / Responsive
- ⁃ jsonplaceholder.typicode.com
- ⁃ Progress bar
- ⁃ Page 404
- ⁃ Gradient Design
+ 1. ANGULAR 14
+ 2. SCSS
+ 3. BOOTSTRAP 
+ 4. Route Guards
+ 5. Validation | Token
+ 6. Adaptive / Responsive
+ 7. jsonplaceholder.typicode.com
+ 8. Progress bar
+ 9. Page 404
+ 10. Gradient Design
