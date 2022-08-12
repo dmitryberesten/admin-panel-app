@@ -1,18 +1,6 @@
 # AdminPanelApp
 
-Application where there is authorization, in the admin panel, dynamic navigation. There is a user list download. Work progress bar that simulates loading from the server. It won't let you into the admin panel if you're not registered and won't let you go to the login page if you're registered. I used Route Guards for that.
-
-
-
-I made a built-in validation from Angular for the email, and used regular expressions for the password as taught in the course.
-
-
-
-Made a fake authorization through local storage. Token used.
-
-
-
-Used SCSS. Bootstrap. A minimum of styles, a minimum of layout, although adaptive did. I wanted to practice on Angular.
+Application where there is authorization, in the admin panel, dynamic navigation. There is a user list download. Work progress bar that simulates loading from the server. It won't let you into the admin panel if you're not registered and won't let you go to the login page if you're registered. I used Route Guards for that. I made a built-in validation from Angular for the email, and used regular expressions for the password as taught in the course. Made a fake authorization through local storage. Token used. Used SCSS. Bootstrap. A minimum of styles, a minimum of layout, although adaptive did. I wanted to practice on Angular.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
 
