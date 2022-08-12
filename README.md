@@ -14,3 +14,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
  8. Progress bar
  9. Page 404
  10. Gradient Design
+
+![1](https://user-images.githubusercontent.com/87872240/184352132-5832dadd-a189-49ac-bcc6-48e9a39a8a4e.png)
+![2](https://user-images.githubusercontent.com/87872240/184352193-68dbb37f-0616-4b86-9157-63b9ed5b4c9d.png)
+![3](https://user-images.githubusercontent.com/87872240/184352219-326714ea-2ca8-46da-939c-3813bb2acb2d.png)
+![4](https://user-images.githubusercontent.com/87872240/184352277-59030a24-b616-49f3-bdb0-3506728c3871.png)
+![5](https://user-images.githubusercontent.com/87872240/184352321-db59984e-0e73-4b7d-aca3-8c347ca3de04.png)
