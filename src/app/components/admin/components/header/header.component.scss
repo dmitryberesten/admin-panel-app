@@ -21,3 +21,9 @@
         margin-bottom: 20px;
     }
 }
+
+a, button {
+    @media screen and (max-width: 520px) {
+        margin: 0 !important;
+    }
+}
