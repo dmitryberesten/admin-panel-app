@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
 
-ТЕХНІЧНІ ОСОБЛИВОСТІ:
+TECHNICAL CHARACTERISTICS:
 
  1. ANGULAR 14
  2. SCSS
