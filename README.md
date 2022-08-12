@@ -37,6 +37,6 @@ Adaptive:
 
 ![5](https://user-images.githubusercontent.com/87872240/184352321-db59984e-0e73-4b7d-aca3-8c347ca3de04.png)
 
-Page 404
+Page 404:
 
 ![6](https://user-images.githubusercontent.com/87872240/184354715-6aba1de2-926d-4e8d-97e9-b7a111b8500d.png)
